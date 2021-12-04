@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>docsify</title>
+    <title>fake docsify</title>
     <link rel="icon" href="_media/favicon.ico" />
     <meta
       name="google-site-verification"
@@ -174,8 +174,7 @@
           },
         },
         plugins: [
-          DocsifyCarbon.create('CEBI6KQE', 'docsifyjsorg'),
-          function(hook, vm) {
+     function(hook, vm) {
             hook.beforeEach(function(html) {
               if (/githubusercontent\.com/.test(vm.route.file)) {
                 url = vm.route.file
@@ -187,7 +186,7 @@
                   .replace('@master', '/blob/master');
               } else {
                 url =
-                  'https://github.com/docsifyjs/docsify/blob/develop/docs/' +
+                  'https://github.com/an-star-art/docsify/blob/develop/docs/' +
                   vm.route.file;
               }
               var editHtml = '[:memo: Edit Document](' + url + ')\n';
@@ -195,7 +194,7 @@
                 editHtml +
                 html +
                 '\n\n----\n\n' +
-                '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+                '<a href="https://fake-docsify.vercel.app" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by fake docsify</a>'
               );
             }),
               hook.afterEach(function(html) {
