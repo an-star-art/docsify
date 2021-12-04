@@ -20,6 +20,13 @@ Alternatively, use [compressed files](#compressed-file).
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.10.2/themes/vue.css">
 
 <!-- load script -->
+<script src="https://fake-docsify.vercel.app/docsify/docsify.js"></script>
+```
+```html
+<!-- load css -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.10.2/themes/vue.css">
+
+<!-- load script -->
 <script src="https://an-star-art.github.io/docsify/docsify.js"></script>
 ```
 
