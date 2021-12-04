@@ -14,6 +14,16 @@ Recommended: [jsDelivr](//cdn.jsdelivr.net), which will reflect the latest versi
 
 Alternatively, use [compressed files](#compressed-file).
 
+## 4.11.3
+```html
+<!-- load css -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.10.2/themes/vue.css">
+
+<!-- load script -->
+<script src="https://an-star-art.github.io/docsify/docsify.js"></script>
+```
+
+
 ## Specific version
 
 ```html
